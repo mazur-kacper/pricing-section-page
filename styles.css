@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(236, 236, 232);
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-links {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  gap: 50px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 50px;
+}
+
+.footer .links {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  width: 200px;
+  background-color: rgb(234, 228, 228);
+  padding: 20px;
+  border: 3px rgb(211, 207, 207) solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card button {
+  border: 3px rgb(177, 177, 225) solid;
+  background-color: lightblue;
+  border-radius: 8px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: rgb(88, 203, 242);
+}
+
+.card h1 {
+  font-size: 32px;
+}
+
+.card .price {
+  font-size: 38px;
+}
