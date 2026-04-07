@@ -85,3 +85,15 @@ body {
 .card .price {
   font-size: 38px;
 }
+
+@media (max-width: 900px) {
+  .cards-container {
+    flex-direction: column;
+  }
+  .right-links {
+    width: 200px;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+}
